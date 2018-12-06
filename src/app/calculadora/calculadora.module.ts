@@ -5,12 +5,11 @@ import { CalculadoraComponent } from './components';
 import { CalculadoraService } from './services/calculadora.service'
 
 @NgModule({
-  declarations: [CalculadoraComponent],
-  imports: [
-    CommonModule,
-  ],
   declarations: [
     CalculadoraComponent
+  ],
+  imports: [
+    CommonModule,
   ],
   exports: [
     CalculadoraComponent
